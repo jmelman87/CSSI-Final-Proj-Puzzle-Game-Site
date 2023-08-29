@@ -1,0 +1,63 @@
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  text-align: center;
+}
+
+h2 {
+  font:
+}
+
+#board {
+  width: 400px;
+  height: 400px;
+  border: 2px solid blue;
+
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#board img {
+  width: 79px;
+  height: 79px; 
+  border: 0.5px solid lightblue;
+}
+
+#pieces {
+  width: 1040px;
+  height: 160px;
+  border: 2px solid blue;
+
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#pieces img {
+  width: 79px;
+  height: 79px; 
+  border: 0.5px solid lightblue;
+}
+
+.hp {
+  display: grid;
+  align-content: flex-start;
+  grid-template-columns: 1fr 1fr 1fr ;
+}
+
+#hint {
+  display: flex;
+  padding: 
+  width: 20%;
+  height: max-content;
+  object-fit: fill;
+  object-
+}
+
+.dropdown {
+  display: flex;
+}
