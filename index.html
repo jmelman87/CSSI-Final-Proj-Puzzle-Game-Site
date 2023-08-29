@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>PUZZLE GAME MENU</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+</head>
+
+<body>
+  <section class="hero is-fullheight has-background-black">
+
+    <!--       WELCOME HTML -->
+    <div id="welcome" class="">
+      <h2 class="title is-size-1 has-text-grey ">Welcome to the Puzzle Game!</h2>
+      <p class="subtitle is-size-4 has-text-grey">Please select a puzzle to play:</p>
+
+      <section class="hero is-small is-info">
+        <a href="puzzle1.html">
+        <div class="hero-body puzzle1">
+          <p class="title">
+            Bill Russell
+          </p>
+          <img
+            src="https://celticswire.usatoday.com/wp-content/uploads/sites/39/2020/06/bill-russell-1024x576-1.jpg?w=1000&h=576&crop=1"
+            height="600" width="500" style="vertical-align:middle;margin:0px 200px">
+        </div>
+        </a>
+      </section>
+
+      <br>
+      <section class="hero is-small is-link">
+        <a href="puzzle2.html">
+        <div class="hero-body puzzle2">
+          <p class="title">
+            The Office
+          </p>
+<!--           <img src="https://flxt.tmsimg.com/assets/p185008_b_h10_ai.jpg" height="750" width="750"
+            style="vertical-align:middle;margin:0px 350px"> -->
+          <img src="https://m.media-amazon.com/images/I/81NK3yCvMJL._SL1500_.jpg" height="400" width="400" style="vertical-align:middle;margin:0px 200px">
+        </div>
+        </a>
+      </section>
+
+      <br>
+      <section class="hero is-small is-info">
+        <a href="puzzle3.html">
+        <div class="hero-body puzzle3">
+          <p class="title">
+            The Color of Busan
+          </p>
+          <img
+            src="https://cdn.discordapp.com/attachments/1003374861198032998/1003703311217741874/76d22381783543.5d09eb94bbb33.jpg"
+            height="400" width="400" style="vertical-align:middle;margin:0px 200px">
+        </div>
+        </a>
+      </section>
+
+      <br>
+      <section class="hero is-small is-link">
+        <a href="puzzle4.html">
+        <div class="hero-body puzzle4">
+          <p class="title">
+            Japanese Breakfast
+          </p>
+          <img src="https://cdn.discordapp.com/attachments/1003374861198032998/1003703413139324980/unknown.png"
+            height="400" width="400" style="vertical-align:middle;margin:0px 200px">
+        </div>
+        </a>
+      </section>
+
+      <br>
+      <section class="hero is-small is-info">
+        <a href="puzzle5.html">
+        <div class="hero-body puzzle5">
+          <p class="title">
+            LEBRON & WADE
+          </p>
+          <img src="https://cdn.discordapp.com/attachments/1003374861198032998/1004406311737368606/heat.jpeg" height="400" width="400" style="vertical-align:middle;margin:0px 200px">
+        </div>
+        </a>
+      </section>
+
+      <br>
+      <section class="hero is-small is-link">
+        <a href="puzzle6.html">
+        <div class="hero-body puzzle6">
+          <p class="title">
+            CONNOR MCGREGOR
+          </p>
+          <img src="https://cdn.discordapp.com/attachments/1003374861198032998/1004407715235385344/conor.jpeg" height="400" width="400" style="vertical-align:middle;margin:0px 200px">
+        </div>
+        </a>
+      </section>
+      <br>
+    </div>
+
+    <!--      PUZZLE BOARD HTML -->
+    <div id="puzzle" class="is-hidden">
+      <p class="is-size-4"><a href="index.html">BACK TO MAIN MENU</a></p>
+      <div class="hintBox">
+        <button id="hint">
+          <h2>Hint Button</h2>
+          <!--     <div class="dropdown is-hidden">hello</div> -->
+        </button>
+      </div>
+      <br>
+      <div id="board" class=""></div>
+      <h2 class="is-size-2 has-text-grey "><b>Turns: <span id="turns">0</span></b></h2>
+      <div id="pieces" class=""></div>
+      <br>
+    </div>
+  </section>
+  <script type="text/javascript" src="script.js"></script>
+</body>
+<footer class="footer has-background-black">
+  <div class="content has-text-centered">
+    <p class="has-text-white">
+      <strong class="has-text-white">Puzzle Game</strong> by <span class="has-text-white">Josh, Cristopher, & Eahn</span>. The source code is licensed
+      <a href="http://opensource.org/licenses/mit-license.php">MIT</a>. The website content
+      is licensed <a href="http://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY NC SA 4.0</a>.
+    </p>
+  </div>
+</footer>
+
+</html>
